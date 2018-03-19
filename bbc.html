@@ -19,11 +19,13 @@
             margin: 0 auto;
             height: 40px;
             background-color: black;
+            color: white;
         }
         
         body {
             margin: 0;
             padding: 0;
+            font-family: Helvetica, Arial, sans-serif;
         }
         
         #logo {
@@ -39,6 +41,19 @@
             border-left: 1px #cccccc solid;
             height: 100%;
         }
+        
+        #signInImage {
+            width: 25px;
+            margin: 10px 15px;
+            float: left;
+        }
+        
+        #signin-text {
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 14px;
+        }
     </style>
 </head>
 
@@ -46,7 +61,8 @@
     <div id="top-bar">
         <img id="logo" src="bbc-logo.png" alt="logo">
         <div id="signin-div" class="topbar-section">
-            <img src="signInImage.png" alt="">
+            <img src="signInImage.png" alt="" id="signInImage">
+            <span id="signin-text">Sign in</span>
         </div>
     </div>
 
